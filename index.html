@@ -780,14 +780,14 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     </div>
   
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
-<script>window.ZAPPY_WEBSITE_ID = "1908b520-13de-49c0-96ef-645c25f47cb1";window.ZAPPY_API_BASE = "https://api.zappy5.com"</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "1908b520-13de-49c0-96ef-645c25f47cb1";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? window.location.origin : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <!-- Mobile buttons: MUST be direct children of .navbar (outside nav-container) -->
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none !important">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
   </button>
@@ -1620,7 +1620,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     <div class="footer-grid">
       <!-- Company Info -->
       <div class="footer-col footer-brand-col">
-        <img src="/assets/image-restaurant-logo.webp" alt="מסעדת על המנגל עפולה" class="logo" decoding="async" width="35" height="35" />
+        <img src="/assets/image-restaurant-logo.webp" alt="מסעדת על המנגל עפולה" class="logo" data-element-type="image" data-element-id="img-1784562984898-at5koe6d2" data-zappy-footer-image="true" style decoding="async" width="35" height="35" />
         <p class="footer-tagline">מסעדת על המנגל עפולה – חווית בשרים מעושנים על גחלים, טעמים מקומיים ואווירה חמה בלב עפולה. אנחנו מזמינים אתכם ליהנות מארוחה בלתי נשכחת עם משפחה וחברים.</p>
       </div>
 
@@ -1640,11 +1640,11 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         <h4>צור קשר</h4>
         <ul class="footer-contact">
           <li>
-            <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+            <span class="contact-icon"><i class="fas fa-envelope" data-element-type="icon" data-element-id="icon-1784562984896-1pufh3ipw" data-icon-type="fontawesome"></i></span>
             <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
           </li>
           <li>
-            <span class="contact-icon"><i class="fas fa-phone"></i></span>
+            <span class="contact-icon"><i class="fas fa-phone" data-element-type="icon" data-element-id="icon-1784562984897-3og03st8a" data-icon-type="fontawesome"></i></span>
             <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
           </li>
           <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
@@ -1655,11 +1655,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
       <!-- Business Hours -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours" style><li><a href="/" style><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">11:30–22:00</span></a></li></ul>
       </div>
 
       <!-- Social Media -->
@@ -1667,8 +1663,8 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         <h4>עקבו אחרינו</h4>
         <div class="footer-social">
           <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram"></i></a>
-          <a href="#" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram" data-element-type="icon" data-element-id="icon-1784562984897-foxvfhfhg" data-icon-type="fontawesome"></i></a>
+          <a href="#" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp" data-element-type="icon" data-element-id="icon-1784562984897-s0jpdo7ht" data-icon-type="fontawesome"></i></a>
         </div>
       </div>
     </div>
@@ -1687,8 +1683,8 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
             </a></li>
           <li><a href="/accessibility">נגישות</a></li>
         </ul>
-        <a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a>
-      </div>
+        <p class="zappy-editable"><a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a>
+      </p></div>
     </div>
   </div>
 </footer>
