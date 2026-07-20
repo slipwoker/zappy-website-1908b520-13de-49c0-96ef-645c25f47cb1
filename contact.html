@@ -763,9 +763,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     </style>
 </head>
 <body>
-
-
-    <div class="mobile-search-panel" id="mobile-search-panel">
+<div class="mobile-search-panel" id="mobile-search-panel">
       <div class="search-wrapper">
         <input type="text" id="mobile-search-input" placeholder="חיפוש מוצרים..." autocomplete="off" />
         <button class="search-submit" id="mobile-search-submit" title="חיפוש">
@@ -791,7 +789,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="04-1234567" aria-label="Call" onclick="window.location.href='tel:04-1234567'">
+  <button class="phone-header-btn" data-phone="046060442" aria-label="Call" onclick="window.location.href='tel:046060442'">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
     </svg>
@@ -800,7 +798,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   <!-- nav-container: REQUIRED wrapper for layout elements (brand, menu, CTA) -->
   <div class="nav-container">
     <div class="nav-right-group"><div class="nav-brand">
-      <a href="/" class="logo-link"><img class="logo" src="/assets/site-image-image-1.webp" alt="מסעדת על המנגל עפולה" decoding="async" width="35" height="35" /></a>
+      <a href="/" class="logo-link"><img class="logo" src="/assets/site-image-image-1.webp" alt="מסעדת על המנגל הנשיא וייצמן 17, עפולה" decoding="async" width="35" height="35" /></a>
     </div><ul class="nav-menu" id="navMenu">
 
     <li class="menu-item-has-children zappy-products-dropdown">
@@ -1277,7 +1275,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '04-6060442';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -1309,7 +1307,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
           <div class="contact-contact-intro-card-text">
             <h3 class="contact-contact-intro-card-title">הזמינו שולחן בטלפון</h3>
             <p class="contact-contact-intro-card-desc">חייגו אלינו ונשמח לתאם לכם מקום – לארוחה זוגית, משפחתית או אירוע עסקי.</p>
-            <a href="tel:[business_phone]" class="contact-contact-intro-phone-link">[business_phone]</a>
+            <a href="tel:04-6060442" class="contact-contact-intro-phone-link">04-6060442</a>
           </div>
         </div>
         <div class="contact-contact-intro-card">
@@ -1321,7 +1319,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
           </div>
           <div class="contact-contact-intro-card-text">
             <h3 class="contact-contact-intro-card-title">הגיעו אלינו</h3>
-            <p class="contact-contact-intro-card-desc">מסעדת על המנגל עפולה – מרכז העיר, חניה נוחה ואווירה חמה מחכים לכם.</p>
+            <p class="contact-contact-intro-card-desc">מסעדת על המנגל הנשיא וייצמן 17, עפולה – מרכז העיר, חניה נוחה ואווירה חמה מחכים לכם.</p>
             
           </div>
         </div>
@@ -1375,15 +1373,15 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
           <ul class="contact-contact-form-section__contact-list">
             <li class="contact-contact-form-section__contact-item" data-zappy-contact-field="email">
               <svg class="contact-contact-form-section__contact-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-              <a href="mailto:[business_email]" class="contact-contact-form-section__contact-link">[business_email]</a>
+              <a href="mailto:adammoshe660@gmail.com" class="contact-contact-form-section__contact-link">adammoshe660@gmail.com</a>
             </li>
             <li class="contact-contact-form-section__contact-item" data-zappy-contact-field="phone">
               <svg class="contact-contact-form-section__contact-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-              <a href="tel:[business_phone]" class="contact-contact-form-section__contact-link">[business_phone]</a>
+              <a href="tel:04-6060442" class="contact-contact-form-section__contact-link">04-6060442</a>
             </li>
             <li class="contact-contact-form-section__contact-item" data-zappy-contact-field="address">
               <svg class="contact-contact-form-section__contact-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              <span class="contact-contact-form-section__contact-text">[business_address]</span>
+              <span class="contact-contact-form-section__contact-text">הנשיא וייצמן 17, הנשיא וייצמן 17, עפולה</span>
             </li>
           </ul>
           
@@ -1397,7 +1395,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   <div class="contact-location-container">
     <div class="contact-location-header">
       <h2 class="contact-location-title">קל להגיע אלינו, טעים להישאר</h2>
-      <p class="contact-location-subtitle">מסעדת על המנגל עפולה ממוקמת בלב העיר, נגישה ונוחה לכל דרכי ההגעה. חניה זמינה, אווירה משפחתית, ומנות בשרים מעולות מחכות לכם במרחק נסיעה קצרה.</p>
+      <p class="contact-location-subtitle">מסעדת על המנגל הנשיא וייצמן 17, עפולה ממוקמת בלב העיר, נגישה ונוחה לכל דרכי ההגעה. חניה זמינה, אווירה משפחתית, ומנות בשרים מעולות מחכות לכם במרחק נסיעה קצרה.</p>
     </div>
     <div class="contact-location-map-area">
       <div class="contact-location-map-illustration" aria-hidden="true">
@@ -1539,7 +1537,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
 
     <div class="contact-faq-section__footer-cta">
       <p class="contact-faq-section__cta-text">לא מצאתם תשובה? דברו איתנו ישירות</p>
-      <a href="tel:[business_phone]" class="contact-faq-section__cta-btn" data-zappy-contact-field="phone">
+      <a href="tel:04-6060442" class="contact-faq-section__cta-btn" data-zappy-contact-field="phone">
         <svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
         <span>התקשרו עכשיו</span>
       </a>
@@ -1553,8 +1551,8 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     <div class="footer-grid">
       <!-- Company Info -->
       <div class="footer-col footer-brand-col">
-        <img src="/assets/image-restaurant-logo.webp" alt="מסעדת על המנגל עפולה" class="logo" decoding="async" width="35" height="35" />
-        <p class="footer-tagline">מסעדת על המנגל עפולה – חווית בשרים מעושנים על גחלים, טעמים מקומיים ואווירה חמה בלב עפולה. אנחנו מזמינים אתכם ליהנות מארוחה בלתי נשכחת עם משפחה וחברים.</p>
+        <img src="/assets/image-restaurant-logo.webp" alt="מסעדת על המנגל הנשיא וייצמן 17, עפולה" class="logo" data-element-type="image" data-element-id="img-1784562984898-at5koe6d2" data-zappy-footer-image="true" decoding="async" width="35" height="35" />
+        <p class="footer-tagline">מסעדת על המנגל הנשיא וייצמן 17, עפולה – חווית בשרים מעושנים על גחלים, טעמים מקומיים ואווירה חמה בלב הנשיא וייצמן 17, עפולה. אנחנו מזמינים אתכם ליהנות מארוחה בלתי נשכחת עם משפחה וחברים.</p>
       </div>
 
       <!-- Quick Links -->
@@ -1573,26 +1571,24 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         <h4>צור קשר</h4>
         <ul class="footer-contact">
           <li>
-            <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-icon"><i class="fas fa-envelope" data-element-type="icon" data-element-id="icon-1784562984896-1pufh3ipw" data-icon-type="fontawesome"></i></span>
+            <span class="contact-text"><a href="mailto:adammoshe660@gmail.com">adammoshe660@gmail.com</a></span>
           </li>
           <li>
-            <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-icon"><i class="fas fa-phone" data-element-type="icon" data-element-id="icon-1784562984897-3og03st8a" data-icon-type="fontawesome"></i></span>
+            <span class="contact-text"><a href="tel:04-6060442">04-6060442</a></span>
           </li>
-          <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">[business_address]</span></a></li>
+          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%94%D7%A0%D7%A9%D7%99%D7%90%20%D7%95%D7%99%D7%99%D7%A6%D7%9E%D7%9F%2017%2C%20%D7%A2%D7%A4%D7%95%D7%9C%D7%94" target="_blank" rel="noopener noreferrer" style="display:flex;align-items:flex-start;gap:inherit"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span class="contact-text">הנשיא וייצמן 17, עפולה</span></a></li>
         </ul>
       </div>
 
       <!-- Business Hours -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
 
       <!-- Social Media -->
@@ -1600,8 +1596,8 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         <h4>עקבו אחרינו</h4>
         <div class="footer-social">
           <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram"></i></a>
-          <a href="#" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram" data-element-type="icon" data-element-id="icon-1784562984897-foxvfhfhg" data-icon-type="fontawesome"></i></a>
+          <a href="#" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp" data-element-type="icon" data-element-id="icon-1784562984897-s0jpdo7ht" data-icon-type="fontawesome"></i></a>
         </div>
       </div>
     </div>
@@ -1609,21 +1605,24 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     <!-- Bottom Bar -->
     <div class="footer-bottom">
       <div class="footer-bottom-left">
-        <p class="copyright">© 2026 מסעדת על המנגל עפולה. כל הזכויות שמורות.</p>
+        <p class="copyright">© 2026 מסעדת על המנגל הנשיא וייצמן 17, עפולה. כל הזכויות שמורות.</p>
       </div>
       <div class="footer-bottom-right">
         <ul class="footer-legal">
           <li><a href="/privacy">מדיניות פרטיות</a></li>
-          <li><a href="/terms">תנאי שימוש</a></li>
+          <li><a href="/terms">תנאי שימוש</a><span class="separator">|</span>
+            <a href="/return-policy" aria-label="מדיניות החזרות">
+              מדיניות החזרות
+            </a></li>
           <li><a href="/accessibility">נגישות</a></li>
         </ul>
-        <a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a>
-      </div>
+        <p class="zappy-editable"><a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a>
+      </p></div>
     </div>
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/046060442" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   
