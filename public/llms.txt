@@ -7,49 +7,49 @@
 ## Pages
 
 ### בית
-https://al-hamangal-afula-restaurant.zappy5.app
+https://example.com
 חוויית בשרים מעושנים, סלטים מרעננים ומנות עסקיות משתלמות בלב עפולה. בואו ליהנות מארוחה מושלמת שתשאיר טעם של עוד. הזמינו שולחן עוד היום!
 
 ### אודות
-https://al-hamangal-afula-restaurant.zappy5.app/about
+https://example.com/about
 גלו את התשוקה לבשר איכותי, בגטים טריים ופיתות חמות שמאחורי מסעדת על המנגל עפולה. סיפור של אהבה לאוכל שמתחיל במנגל ומגיע ישר לצלחת שלכם.
 
 ### גלריה
-https://al-hamangal-afula-restaurant.zappy5.app/gallery
+https://example.com/gallery
 צפו בתמונות מעוררות תיאבון של נתחי בשר עסיסיים, סלטים צבעוניים ומאפים מהתנור. הגלריה שלנו מוכיחה שכל מנה היא יצירת אמנות קולינרית. בואו להתאהב!
 
 ### צור קשר
-https://al-hamangal-afula-restaurant.zappy5.app/contact
+https://example.com/contact
 מוכנים לחוויית בשר בלתי נשכחת? צרו קשר להזמנת מקום, שאלות על תפריטי צהריים עסקיים או אירועים. צוות מסעדת על המנגל עפולה מחכה לשמוע מכם!
 
 ### Products
-https://al-hamangal-afula-restaurant.zappy5.app/products
+https://example.com/products
 המוצרים שלנו - מסעדת על המנגל עפולה
 
 ### Product Detail
-https://al-hamangal-afula-restaurant.zappy5.app/product/:slug
+https://example.com/product/:slug
 פרטי המוצר - מסעדת על המנגל עפולה
 
 ### Category
-https://al-hamangal-afula-restaurant.zappy5.app/category/:slug
+https://example.com/category/:slug
 מוצרים - מסעדת על המנגל עפולה
 
 ### תודה שפניתם אלינו
-https://al-hamangal-afula-restaurant.zappy5.app/thank-you
+https://example.com/thank-you
 מסעדת על המנגל עפולה - תודה שפניתם אלינו
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://al-hamangal-afula-restaurant.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://al-hamangal-afula-restaurant.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://al-hamangal-afula-restaurant.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -77,8 +77,8 @@ Restaurant
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://al-hamangal-afula-restaurant.zappy5.app/sitemap.xml
-- Robots: https://al-hamangal-afula-restaurant.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://al-hamangal-afula-restaurant.zappy5.app/llms-full.txt
-- Products (JSON): https://al-hamangal-afula-restaurant.zappy5.app/products.json
-- Products (Google Merchant RSS): https://al-hamangal-afula-restaurant.zappy5.app/product-feed.xml
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Products (JSON): https://example.com/products.json
+- Products (Google Merchant RSS): https://example.com/product-feed.xml
